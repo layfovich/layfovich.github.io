@@ -39,6 +39,12 @@ font-size: 18px;
 font-weight: 700;
 padding: 17px 55px ;
 margin-top: 33px;
+-webkit-transition: 0.2em;
+-o-transition: 0.2em;
+transition: 0.2em;
+}
+.header-button:hover {
+box-shadow:none;
 }
 header small {
 	font-size: 12px;
@@ -135,6 +141,13 @@ margin-bottom: 13px; }
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 12px 40px;
+	-webkit-transition: 0.2em;
+	-o-transition: 0.2em;
+	transition: 0.2em;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color:  #1157db;
 }
 
 @media (max-width: 1200px) {
